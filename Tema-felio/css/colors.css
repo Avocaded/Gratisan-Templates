@@ -1,0 +1,28 @@
+/*===================================================
+                    COLOR
+===================================================*/
+a:hover{
+    color:#ff8f17;
+    border: #ff8f17;
+}
+
+/*===================================================
+                    BACKGROUND-COLOR
+===================================================*/
+.header-search form button,
+#return-to-top,
+.object,
+{
+	background-color:#222222;
+}
+.masonary.style1 figure .html5lightbox .fa,
+.masonary figure .link{background: #ff8f17;}
+
+
+
+/*===================================================
+                    BORDER-COLOR
+===================================================*/
+
+.masonary.style2 figure .html5lightbox .fa,
+.masonary.style3 figure .html5lightbox{border: 1px solid #ff8f17;}
