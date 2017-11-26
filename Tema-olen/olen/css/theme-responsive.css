@@ -1,0 +1,2215 @@
+/*------------------------------------------------------------------
+Project:	OLEN Multipurpose Corporate Html Template - Responsive 
+Version:	1.1
+Last change:	14/05/15 [fixed Float bug, vf]
+Author:	Janxcode
+
+/*------------------------------------------------------------------
+
+/* Note: Design for a width 1024 Desktop
+================================================== */
+
+	@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	
+	
+/* ----------------------- Header ------------------------*/
+	
+	/* Mobile Menu */
+	.slicknav_menu{display:none;}
+	
+	.menu-left-space {
+		padding-left:90px !important;
+	}
+
+/* ----------------------- Footer ------------------------*/
+
+
+	footer-widget {
+		display: block;
+		margin-bottom:40px
+	}
+	
+	/* Pre Footer Section */
+	
+	/* Social Icons */
+	
+	.jx-social-icons li {
+		height: 84px;
+		width: 65px;
+		border-left: 1px solid #444;
+	}
+	
+	.jx-social-icons li:hover {
+		height: 98px;
+		width: 65px;
+	 	margin-top:-14px;
+	}
+		
+	.jx-social-icons li i {
+		line-height: 84px;
+		width: 65px;
+	}
+	
+	.jx-social-icons li:hover span {
+		display:none;
+	}
+	
+	.jx-social-icons li:last-child{
+	  border-right:1px solid #444;
+	}
+	
+	/* Recent Work  */
+	.jx-footer-recent-work ul {
+		margin-left: 0px;
+	}
+	
+	.jx-footer-recent-work ul li:nth-child(4){
+		margin-right:0
+	}
+
+	.jx-footer-recent-work ul li {
+		margin: 10px 10px 0px 0px;
+		width: 23.3%;
+	}
+	
+	.footer-recent-work-big-image {
+		width: 100%;
+	}
+ 
+ 	/* Footer Twitter */
+	.jx-footer-twitter {
+		margin-top: 19px;
+		height: auto;
+	}
+	
+	.jx-footer-twitter .twitter-icon {
+		height: 88px;
+		width: 86px;
+		padding-top: 20px;
+		text-indent: 11px;
+		font-size:45px;
+	}
+	
+	.jx-footer-twitter .twitter-icon::after {
+		top: 34px;
+	}
+	
+	.jx-footer-twitter .twitter-msg{
+		height: 88px;
+	}
+	
+	
+	/* ----------------------- PriceTable#1 ------------------------*/
+
+	.jx-price-table-1 .price {
+		width: 103px;
+		height: 100px;
+	}
+	.jx-price-table-1 .title {
+		font-size: 30px;
+		padding: 20px 0px 0px 0px;
+	}
+	.jx-price-table-1 .amount {
+		font-size: 27px;
+		padding: 20px 0px 10px 0px;
+	}
+	.jx-price-table-1 .item-list ul li {
+		font-size:16px;
+	}
+	.jx-price-table-1 .catagry {
+		font-size: 18px;
+		padding: 20px 0px 0px 0px;
+	}
+	
+	/* ----------------------- PriceTable#2 ------------------------*/
+	
+	.jx-price-table-2 .title , .jx-price-table-3 .title {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	
+	.jx-price-table-2 .amount , .jx-price-table-3 .amount {
+		font-size: 55px;
+		padding: 12px 0px 0px;
+		line-height: 55px;
+	}
+	
+	.jx-price-table-2 .text , .jx-price-table-3 .text {
+    	padding: 7px 0px 0px;
+	}
+	.jx-price-table-2 .item-list ul li , .jx-price-table-3 .item-list ul li {
+		font-size:15px;
+	}
+	
+	.jx-price-table-2 .price-button , .jx-price-table-3 .price-button {
+		font-size: 20px;
+		padding: 10px 20px;
+	}
+	
+	}
+
+
+/* #Tablet (Portrait)
+================================================== */
+ 
+    /* Note: Design for a width of 768px */
+ 
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	/* ----------------------- HEADER  ------------------------*/
+	 /* Rev slider */
+   
+	.jx-caption-big-1{
+		font-size:60px !important;
+		font-weight:700;
+		font-family:raleway;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-1 span{
+		font-size:60px !important;
+		font-weight:700;
+		font-family:raleway;
+		color:#000;
+	}
+	
+	.jx-caption-big-2{
+		font-size:30px !important;
+		font-weight:600; 
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-3{
+		font-size:40px !important;
+		color:#000;
+		font-weight:700;
+		font-family:raleway ;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn{
+		color:#fff;
+		padding:20px 18px !important;
+		font-size:23px !important;
+		border-radius:5px;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn:hover{
+		background:#000;
+		cursor:pointer;
+	}
+	
+	/* --------- Mobile Menu ------ */
+	.jx-header-logo.jx-header-small-logo{
+		display: none
+	}
+	
+	
+	/* Header */
+	.jx-sub-header{display:none;}
+	
+	.jx-head-pattern{display:none;}
+	
+	/* Header Social */
+	.jx-header-social{display:none;}
+	
+	/* Big Screen Menu */
+	.nav_container{display:none;}
+	
+	/* Mobile Menu */
+	.slicknav_menu{display:block;}
+	
+	header .jx-header-logo{
+		display: block;
+		width: 163px;
+		padding: 20px;
+		min-height: 100px;
+		position: absolute;
+	}
+	/* Mobile Menu */
+	.slicknav_menu{display:block;}
+	
+
+
+/* ----------------------- Footer ------------------------*/
+
+
+	footer-widget {
+		display: block;
+		margin-bottom:40px
+	}
+	
+	/* Pre Footer Section */
+	
+	/* Social Icons */
+	
+	.jx-social-icons li {
+		height: 54px;
+		width: 50px;
+		border-left: 1px solid #444;
+	}
+	
+	.jx-social-icons li:hover {
+		height: 68px;
+		width: 50px;
+	 	margin-top:-14px;
+	}
+		
+	.jx-social-icons li i {
+		line-height: 66px;
+		width: 50px;
+	}
+	
+	.jx-social-icons li:hover span {
+		display:none;
+	}
+	
+	.jx-social-icons li:last-child{
+	  border-right:1px solid #444;
+	}
+	
+	/* Recent Work  */
+	
+	.jx-footer-recent-work {
+    	height: 267px;
+	}
+	
+	.jx-footer-recent-work div{
+	  width:100%;
+	  height: auto
+	}
+
+	.jx-footer-recent-work ul {
+		margin-left: 0px;
+	}	
+	
+	.jx-footer-recent-work ul li:nth-child(4){
+		margin-right:0
+	}
+
+	.jx-footer-recent-work ul li {
+		margin: 10px 10px 0px 0px;
+		width: 22.93%;
+		height:auto
+	}
+	.footer-recent-work-big-image {
+		width: 100%;
+	}
+ 
+ 	/* Footer Twitter */
+	
+	
+	.jx-footer-twitter {
+		height: auto;
+	}
+	
+	.jx-footer-twitter .twitter-icon {
+		height: 88px;
+		width: 86px;
+		padding-top: 20px;
+		text-indent: 11px;
+		font-size:45px;
+	}
+	
+	.jx-footer-twitter .twitter-icon::after {
+		top: 34px;
+	}
+	
+	.jx-footer-twitter .twitter-msg{
+		height: 88px;
+	}
+
+
+/* ----------------------- Contact Us ------------------------*/
+
+	.row-1 .contact-first-name {
+		width: 49%;
+	}
+	.row-1 .contact-last-name {
+		width:49%;
+	}
+	.row-1 .contact-email {
+    	width: 49%;
+	}
+	.row-1 .contact-phone {
+		width: 49%;
+	}
+
+/* ----------------------- Blog ------------------------*/
+	
+	.jx-blog-1 .blog-item .date-position {
+		width: 70px;
+		position: absolute;
+		float: left;
+		margin: 60px 0px 0px 15px;
+		z-index: 90;
+	}
+	.jx-blog-1 .blog-item .icon {
+		font-size: 40px;
+		color: #FFF;
+		height: 70px;
+		padding-top: 15px;
+	}
+	.jx-blog-1 .blog-item .date {
+		font-size: 30px;
+		line-height: 25px;
+		color: #FFF;
+		height: 70px;
+	}
+	.jx-blog-1 .blog-item .date span {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	/* ----------------------- Shortcodes ------------------------*/
+	/* ----------------------- Notification ------------------------*/
+	
+	.jx-alert-notification .alert-btn {
+		padding: 12px 15px;
+	}
+
+/* ----------------------- Cicular Service ------------------------*/
+
+	.jx-circle-servicebox .jx-circle-service-second{padding-top:0}
+	
+	.circular-menu {
+		width:100% !important;
+	}
+	.jx-circular-service-container {
+		min-height:450px;
+		padding:0 !important;
+	}
+	.jx-circle-nav {
+		width:60px !important;
+	}
+	.circular-menu .jx-circular-srvc,.circular-menu .jx-srvc-container {
+		float:left;
+	}
+	.circular-menu .jx-srvc-container {
+		position:absolute;
+		top:0;
+		left:70px;
+		margin-bottom:20px;
+	}
+	.jx-circle-nav li {
+		margin:0;
+		padding:0;
+		float:none !important;
+		left:0 !important;
+		top:0 !important;
+		position:relative;
+		margin-bottom:45px
+	}
+	.jx-service-lines {
+		display:none;
+	}
+	.jx-srvc-container .jx-circular-srvc {
+		margin:0;
+		padding:0;
+		float:none !important;
+		left:0 !important;
+		top:0 !important;
+		position:relative;
+		text-align:left !important;
+		margin-bottom:50px;
+		width:100% !important;
+	}
+	.jx-service-network .menu-button {
+		display: none !important;
+	}
+
+	}
+	
+
+/*  #Mobile (Portrait)
+================================================== */
+ 
+    /* Note: Design for a width of 320px */ 
+    @media only screen and (max-width: 767px) {
+	
+	/* ----------------------- HEADER  ------------------------*/
+	 
+	/* --------- Mobile Menu ------ */
+	.jx-header-logo.jx-header-small-logo{
+		display: none
+	}
+	
+	
+	/* Header */
+	.jx-sub-header{display:none;}
+	
+	.jx-head-pattern{display:none;}
+	
+	/* Header Social */
+	.jx-header-social{display:none;}
+	
+	/* Big Screen Menu */
+	.nav_container{display:none;}
+	
+	/* Mobile Menu */
+	.slicknav_menu{display:block;}
+	
+	header .jx-header-logo{
+		display: block;
+		width: 163px;
+		padding: 20px;
+		min-height: 100px;
+	}	
+	
+	.slicknav_menu{display:block;}
+	
+	
+	/* Rev slider */
+   
+	.jx-caption-big-1{
+		font-size:30px !important;
+		font-weight:700;
+		font-family:raleway;
+		margin-top:-10px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-1 span{
+		font-size:30px !important;
+		font-weight:700;
+		font-family:raleway;
+		color:#000;
+	}
+	
+	.jx-caption-big-2{
+		font-size:15px !important;
+		font-weight:600; 
+		margin-top:-5px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-3{
+		font-size:20px !important;
+		color:#000;
+		font-weight:700;
+		font-family:raleway ;
+		margin-top:-2px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn{
+		color:#fff;
+		padding:15px 18px !important;
+		font-size:15px !important;
+		border-radius:5px;
+		margin-top:0px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn:hover{
+		background:#000;
+		cursor:pointer;
+	}
+	
+	/* --------- Partener Title -------- */
+	.jx-logo-partner-2 ul {
+		padding:0px;
+		margin:0px;
+	}
+	
+	.jx-logo-partner-2 ul li {
+		padding:0px;
+		margin:0px 25px;
+		float:left;
+	}
+	.jx-logo-partner-2 .logo-partner .brucket-title{
+		color:#000;
+		font-size:40px;
+		margin-bottom:27px;
+	}
+	
+	.jx-logo-partner-2 .logo-partner .title{
+		color:#000;
+		font-size:45px;
+		font-weight:600;
+		margin-bottom:26px;
+	}
+	
+	.jx-logo-partner-2 .logo-partner .seperator-hr{
+		border-radius:25px;
+		height:6px;
+		width:85px;
+		margin-bottom: 20px;
+		margin-left:0;
+		border:none
+	}
+	
+	/*------------Tabs------------------------*/
+ ul.resp-tabs-list {
+    display: none;
+    width:100% !important;
+  }
+
+  .jx-tab-icon{
+    float:left;
+    margin-right:10px !important;;
+  }
+
+  .jx-tab-title{   
+    font-size:14px;
+    font-weight:400;
+  }
+
+
+  h2.resp-tab-active {
+    background: none repeat scroll 0% 0% #DBDBDB !important;;
+  }
+
+  h2.resp-accordion {
+    display: block !important;
+    margin-bottom:-1px !important;
+  }
+
+  .resp-vtabs .resp-tab-content {
+    border: 1px solid #C1C1C1;
+  }
+
+  .resp-vtabs .resp-tabs-container {
+    border: none;
+    float: none;
+    width: 100% !important;
+    min-height: 100px;
+    clear: none;
+  }
+
+  .resp-accordion-closed {
+    display: none !important;
+  }
+
+  .resp-vtabs .resp-tab-content:last-child {
+    border-bottom: 1px solid #c1c1c1 !important;
+  }
+	
+	
+	
+	
+	
+/* ----------------------- Footer ------------------------*/
+
+
+	footer-widget {
+		display: block;
+		margin-bottom:40px
+	}
+	
+	/* Pre Footer Section */
+	
+	.jx-address{
+		margin-top:20px;
+	}
+	
+	/* Social Icons */
+	
+	.jx-social-icons li {
+		height: 54px;
+		width: 50px;
+		border-left: 1px solid #444;
+	}
+	
+	.jx-social-icons li:hover {
+		height: 68px;
+		width: 50px;
+	 	margin-top:-14px;
+	}
+		
+	.jx-social-icons li i {
+		line-height: 66px;
+		width: 50px;
+	}
+	
+	.jx-social-icons li:hover span {
+		display:none;
+	}
+	
+	.jx-social-icons li:last-child{
+	  border-right:1px solid #444;
+	}
+	
+	/* Recent Work  */
+	.jx-footer-recent-work ul {
+		margin-left: 0px;
+	}
+	
+	.jx-footer-recent-work ul li:nth-child(4){
+		margin-right:0
+	}
+
+	.jx-footer-recent-work ul li {
+		margin: 10px 10px 0px 0px;
+		width: 48.3%;
+	}
+	
+	.footer-recent-work-big-image {
+		width: 100%;
+	}
+ 
+ 	/* Footer Twitter */
+	.jx-footer-twitter {
+		margin-top: 49px;
+		height: 89px;
+	}
+	
+	.jx-footer-twitter .twitter-icon {
+		height: 88px;
+		width: 86px;
+		padding-top: 20px;
+		text-indent: 11px;
+		font-size:45px;
+	}
+	
+	.jx-footer-twitter .twitter-icon::after {
+		top: 34px;
+	}
+	
+	.jx-footer-twitter .twitter-msg{
+		height: 88px;
+	}
+	
+	
+	/* ----------------------- Contact Us ------------------------*/
+
+	.row-1 .contact-first-name {
+		width: 100%;
+	}
+	.row-1 .contact-last-name {
+		width:100%;
+	}
+	.row-1 .contact-email {
+    	width: 100%;
+	}
+	.row-1 .contact-phone {
+		width: 100%;
+	}
+	
+	
+	/* ----------------------- Blog style #1 ------------------------*/
+	
+	.jx-blog-1 .blog-item .date-position , .jx-blog-1.blog-medium .blog-item .date-position , .jx-blog-1.blog-single-post .date-position {
+		width: 40px;
+		position: absolute;
+		float: left;
+		margin: 30px 0px 0px 13px;
+		z-index: 90;
+	}
+	
+	.jx-blog-1 .blog-item .icon  , .jx-blog-1.blog-medium .blog-item .icon , .jx-blog-1.blog-single-post .icon {
+		font-size: 20px;
+		color: #FFF;
+		height: 40px;
+		padding-top: 0px;
+		line-height:38px;
+	}
+	
+	.jx-blog-1 .blog-item .date , .jx-blog-1.blog-medium .blog-item .date , .jx-blog-1.blog-single-post .date{
+		font-size: 15px;
+		line-height: 12px;
+		color: #FFF;
+		height: 40px;
+	}
+	
+	.jx-blog-1 .blog-item .date span , .jx-blog-1.blog-medium .blog-item .date span , .jx-blog-1.blog-single-post .date span {
+		font-size: 18px;
+		line-height: 23px;
+	}
+	
+	.jx-blog-1 .title {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	
+	/* ----------------------- Block Style #1 Medium ------------------------*/
+	.jx-blog-1.blog-medium .image img {
+    	height: 154px;
+	}
+	
+	/* ----------------------- Block Style #1 Small ------------------------*/
+	.jx-blog-1.blog-small .blog-item .image img {
+		height:154px;
+	}
+	
+	/* ----------------------- Block Style #1 Small ------------------------*/
+	.jx-blog-1.blog-small .title {
+    	padding-top: 15px;
+	}
+	
+	
+	/* ----------------------- Shortcodes ------------------------*/
+	
+	/* ----------------------- Cicular Service ------------------------*/
+
+	.jx-circle-servicebox .jx-circle-service-second{padding-top:0}
+	
+	.circular-menu {
+		width:100% !important;
+	}
+	.jx-circular-service-container {
+		min-height:450px;
+		padding:0 !important;
+	}
+	.jx-circle-nav {
+		width:60px !important;
+	}
+	.circular-menu .jx-circular-srvc,.circular-menu .jx-srvc-container {
+		float:left;
+	}
+	.circular-menu .jx-srvc-container {
+		position:absolute;
+		top:0;
+		left:70px;
+		margin-bottom:20px;
+	}
+	.jx-circle-nav li {
+		margin:0;
+		padding:0;
+		float:none !important;
+		left:0 !important;
+		top:0 !important;
+		position:relative;
+		margin-bottom:45px
+	}
+	.jx-service-lines {
+		display:none;
+	}
+	.jx-srvc-container .jx-circular-srvc {
+		margin:0;
+		padding:0;
+		float:none !important;
+		left:0 !important;
+		top:0 !important;
+		position:relative;
+		text-align:left !important;
+		margin-bottom:25px;
+		width:100% !important;
+	}
+	.jx-service-network .menu-button {
+		display: none !important;
+	}
+	
+	
+	/* ----------------------- Counter Grid ------------------------*/
+	
+	.jx-count-up-g1-count, .jx-count-up-g2-count {
+		font-size:40px;
+	}
+	.jx-count-up-g1-text, .jx-count-up-g2-text {
+		font-size:18px;
+	}
+	.janxcode-count-up-grid-row2 ul li {
+		display: inherit;
+		width: auto;
+	}
+	
+	/* ----------------------- Counter Up ----------------------*/
+	.jx-countup {
+		margin-bottom: 52px;
+	}
+	.jx-counter-up .counter_text {
+    	font-size: 21px;
+	}
+	
+	/* ----------------------- Portfolio ------------------------*/
+	
+	.jx-portfolio .item.item-w2 {
+		width: 400px;
+		height:auto;
+	}
+	
+	/* ----------------------- Portfolio ------------------------*/
+
+	.jx-portfolio{
+		margin:0px auto !important;
+	}
+	
+	.jx-portfolio .item.item-w2 {
+		width: 300px;
+		height:auto;
+	}
+	
+	
+	/* ----------------------- Logo Partner ------------------------*/
+	
+	.jx-logo-partner-2 ul li {
+		margin: 10px 25px;
+	}
+	
+	/* ----------------------- Block Style 2 ------------------------*/
+	
+	.jx-blog-2 ul li {
+		padding: 0px 0px 40px 0px;
+		width: 100%;
+		display: block;
+	}
+	
+	/* ----------------------- Block Style 2 ------------------------*/
+	
+	
+	.jx-blog-2 .blog-item .date-position-left {
+		width: 40px;
+		margin: 40px 0px 0px 10px;
+	}
+	
+	.jx-blog-2 .blog-item .date {
+		font-size: 16px;
+		line-height: 18px;
+		height: 40px;
+	}
+	
+	.jx-blog-2 .blog-item .date span {
+		font-size: 19px;
+		line-height: 16px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		font-size: 20px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		height: 40px;
+		padding-top: 8px;
+	}
+	
+	.jx-blog-2 .blog-item .date-position-right {
+		width: 40px;
+		margin: 40px 10px 0px 0px;
+	}
+	
+	
+	/* Author Box ======================================================*/
+	
+	.jx-author-box{
+	  height:auto;
+	}
+	
+	}
+	
+
+ 
+    /* Note: Design for a width of 480px */ 
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+	/* Header */
+	
+ 	/* Header Content Box */
+	.jx-page-header .item-position{
+		width:100%;
+	}
+	
+	/* Page Title Bar Icon */
+	.jx-page-header .page-icon i { display:none;}
+	.jx-page-header .title { font-size:40px; line-height:40px;}
+	
+	
+	/* ----------------------- Shortcodes ------------------------*/
+	
+	
+	/* ----------------------- Logo Partner ------------------------*/
+	
+	.jx-logo-partner-home .logo-partner .brucket-title {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	
+	.jx-logo-partner-home .logo-partner .title {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	
+	.jx-logo-partner-home li {
+    	width: 21%;
+	}
+	
+	
+	
+	/* ----------------------- Block Style 2 ------------------------*/
+	
+	.jx-blog-2 ul li {
+    	padding:0px;
+	}
+	.jx-pattern {
+		margin: 20px 0px !important;
+	}
+	.blog-pattern {
+		width: 20.3px !important;
+		height: 20px !important;
+	}
+	
+	.jx-blog-2 ul li {
+		width: 100% !important;
+	}
+	
+	
+	/* ----------------------- Cicular Service ------------------------*/
+
+	.jx-circle-nav li {
+    	margin: 0px 0px 48px !important;
+	}
+	
+	/* ----------------------- Testimonials ------------------------*/
+
+	.jx-testimonials-3 .user-photo.medium {
+		display: none;
+	}
+	
+	/* ----------------------- Page 404 ------------------------*/
+	.jx-page-search.medium .jx-form-wrapper button {
+    	top: -60px;
+	}
+	
+	.jx-404-error .jx-404-message {
+		font-size: 40px;
+		padding-top: 30px;
+		height: auto;
+		line-height: 45px;
+	}
+	
+	.jx-404-error .jx-404-errorno {
+		font-size: 150px;
+		height: 140px;
+	}
+	
+	/* ----------------------- Page 500 ------------------------*/
+	
+	.jx-500-error .jx-500-message {
+		font-size: 40px;
+		padding-top: 30px;
+		height: auto;
+		line-height: 45px;
+	}
+	
+	.jx-500-error .jx-500-errorno {
+		font-size: 150px;
+		height: 140px;
+	}
+	
+	}
+	
+	
+	/* MOBILE PORTRAIT SIZE TO MOBILE LANDSCAPE SIZE (DEVICES AND BROWSERS)-------------- */
+	@media only screen and (max-width:479px) {
+	
+	
+	/* ----------------------- HEADER  ------------------------*/
+	 
+	 
+	 /* --------- Mobile Menu ------ */
+	.jx-header-logo.jx-header-small-logo{
+		display: none
+	}
+	
+	/* Header Content Box */
+	.jx-page-header .item-position{
+		width:100%;
+	}
+	
+	/* Header */
+	.jx-sub-header{display:none;}
+	
+	.jx-head-pattern{display:none;}
+	
+	/* Header Social */
+	.jx-header-social{display:none;}
+	
+	/* Big Screen Menu */
+	.nav_container{display:none;}
+	
+	/* Mobile Menu */
+	.slicknav_menu{display:block;}
+	
+	header .jx-header-logo{
+		display: block;
+		width: 163px;
+		padding: 20px;
+		min-height: 100px;
+	}
+	/* Mobile Menu */
+	.slicknav_menu{display:block;}
+	
+	 
+	 
+	/* Rev slider */
+   
+	.jx-caption-big-1{
+		font-size:30px !important;
+		font-weight:700;
+		font-family:raleway;
+		margin-top:-10px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-1 span{
+		font-size:30px !important;
+		font-weight:700;
+		font-family:raleway;
+		color:#000;
+	}
+	
+	.jx-caption-big-2{
+		font-size:15px !important;
+		font-weight:600; 
+		margin-top:-5px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-3{
+		font-size:20px !important;
+		color:#000;
+		font-weight:700;
+		font-family:raleway ;
+		margin-top:-2px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn{
+		color:#fff;
+		padding:15px 18px !important;
+		font-size:15px !important;
+		border-radius:5px;
+		margin-top:0px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn:hover{
+		background:#000;
+		cursor:pointer;
+	}
+	
+		/* Logo Partners in slider */
+	.jx-partner-slider {
+		z-index: 99;
+		width: 100%;
+		background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.8);
+		padding: 20px;
+		bottom: 10px;
+		position: absolute;
+		display:none;
+	}
+	
+	.jx-partner-slider .jx-logo-partner-home .brucket-title {
+		font-size: 20px !important;
+		margin-bottom:10px
+	}
+	
+	.jx-partner-slider .jx-logo-partner-home .title {
+		font-size:35px !important;
+		margin-bottom:10px
+	}
+	
+	
+	.jx-partner-slider .jx-logo-partner-home ul li{
+		width:25% !important;
+		margin:10px;
+		padding:0;
+		height:30px
+	}
+	/* Header */
+	.jx-sub-header{display:none;}
+	
+	.jx-head-pattern{display:none;}
+	
+	/* Header Social */
+	.jx-header-social{display:none;}
+	
+	/* Big Screen Menu */
+	.nav_container{display:none;}
+	
+	/* Mobile Menu */
+	.slicknav_menu{display:block;}
+	
+	/* Page Title Bar Icon */
+	.jx-page-header .page-icon i { display:none;}
+	.jx-page-header .title { font-size:30px; line-height:30px;}
+	
+/* ----------------------- Footer ------------------------*/
+
+	footer-widget{
+		display: block;
+		margin-bottom:40px
+	}
+	
+	/* Pre Footer Section */
+	
+	.jx-address{
+		margin-top:20px;
+	}
+	
+	/* Social Icons */
+	
+	.jx-social-icons li {
+		height: 54px;
+		width: 50px;
+		border-left: 1px solid #444;
+	}
+	
+	.jx-social-icons li:hover {
+		height: 68px;
+		width: 50px;
+	 	margin-top:-14px;
+	}
+		
+	.jx-social-icons li i {
+		line-height: 66px;
+		width: 50px;
+	}
+	
+	.jx-social-icons li:hover span {
+		display:none;
+	}
+	
+	.jx-social-icons li:last-child{
+	  border-right:1px solid #444;
+	}
+	
+	/* Recent Work  */
+	.jx-footer-recent-work ul {
+		margin-left: 0px;
+	}	
+	
+	.jx-footer-recent-work ul li:nth-child(4){
+		margin-right:0
+	}
+
+	.jx-footer-recent-work ul li {
+		margin: 10px 10px 0px 0px;
+		width: 22.5%;
+		height: auto;
+	}
+	
+	
+	.footer-recent-work-big-image {
+		width: 100%;
+		height: auto;
+	}
+ 
+ 	/* Footer Twitter */
+	.jx-footer-twitter {
+		margin-top: 49px;
+		height: 89px;
+	}
+	
+	.jx-footer-twitter .twitter-icon {
+		height: 88px;
+		width: 86px;
+		padding-top: 20px;
+		text-indent: 11px;
+		font-size:45px;
+	}
+	
+	.jx-footer-twitter .twitter-icon::after {
+		top: 34px;
+	}
+	
+	.jx-footer-twitter .twitter-msg{
+		height: 88px;
+	}
+	
+	
+
+/* ----------------------- Blog style #1 ------------------------*/
+	
+	.jx-blog-1 .blog-item .date-position , .jx-blog-1.blog-medium .blog-item .date-position {
+		width: 30px;
+		position: absolute;
+		float: left;
+		margin: 20px 0px 0px 8px;
+		z-index: 90;
+	}
+	.jx-blog-1 .blog-item .icon , .jx-blog-1.blog-medium .blog-item .icon {
+		font-size: 14px;
+		color: #FFF;
+		height: 30px;
+		padding-top: 0px;
+		line-height:30px;
+	}
+	
+	.blog-photo-icon:before {
+		line-height:30px;
+	}
+	
+	.jx-blog-1 .blog-item .date , .jx-blog-1.blog-medium .blog-item .date {
+		font-size: 12px;
+		line-height: 11px;
+		color: #FFF;
+		height: 30px;
+	}
+	.jx-blog-1 .blog-item .date span , .jx-blog-1.blog-medium .blog-item .date span {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	
+	.jx-blog-1 .title {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	
+	/* ----------------------- Block Style #1 -- Blog Single Post ------------------------*/
+	
+	 .jx-blog-1.blog-single-post .date-position {
+		margin: 15px 0px 0px 13px;
+	}
+	
+
+	
+/* ----------------------- Shortcodes ------------------------*/
+
+/* ----------------------- PriceTable ------------------------*/
+
+	.jx-price-table-1 .price {
+		width: 103px;
+		height: 100px;
+	}
+	.jx-price-table-1 .title {
+		font-size: 30px;
+		padding: 20px 0px 0px 0px;
+	}
+	.jx-price-table-1 .amount {
+		font-size: 27px;
+		padding: 20px 0px 10px 0px;
+	}
+	.jx-price-table-1 .item-list ul li {
+		font-size:16px;
+	}
+	.jx-price-table-1 .catagry {
+		font-size: 18px;
+		padding: 20px 0px 0px 0px;
+	}
+	
+	/* ----------------------- Notification ------------------------*/
+	
+	.jx-alert-notification .alert-btn {
+		padding: 12px 15px;
+	}
+	
+	
+	/* ----------------------- Cicular Service ------------------------*/
+
+	.jx-circle-servicebox .jx-circle-service-second{padding-top:0}
+	
+	.circular-menu {
+		width:100% !important;
+	}
+	.jx-circular-service-container {
+		min-height:450px;
+		padding:0 !important;
+	}
+	.jx-circle-nav {
+		width:60px !important;
+	}
+	.circular-menu .jx-circular-srvc,.circular-menu .jx-srvc-container {
+		float:left;
+	}
+	.circular-menu .jx-srvc-container {
+		position:absolute;
+		top:0;
+		left:100px;
+		margin-bottom:20px;
+	}
+	.jx-circle-nav li {
+		margin:0px;
+		padding: 0px 0px 0px 20px;
+		float:none !important;
+		left:0 !important;
+		top:0 !important;
+		position:relative;
+		margin-bottom:69px;
+	}
+	.jx-service-lines {
+		display:none;
+	}
+	.jx-srvc-container .jx-circular-srvc {
+		margin:0;
+		padding:0;
+		float:none !important;
+		left:0 !important;
+		top:0 !important;
+		position:relative;
+		text-align:left !important;
+		margin-bottom:25px;
+		width:100% !important;
+	}
+	.jx-service-network .menu-button {
+		display: none !important;
+	}
+	
+
+	
+	
+	
+	/* ----------------------- Counter Grid ------------------------*/
+	
+	.jx-count-up-g1-count, .jx-count-up-g2-count {
+		font-size:25px;
+	}
+	.jx-count-up-g1-text, .jx-count-up-g2-text {
+		font-size:14px;
+	}
+	.janxcode-count-up-grid-row2 ul li {
+		display: inherit;
+		width: auto;
+	}
+	
+	/* ----------------------- Counter Up ----------------------*/
+	.jx-countup {
+		margin-bottom: 52px;
+	}
+	.jx-counter-up .counter_text {
+    	font-size: 21px;
+	}
+	
+	/* ----------------------- Portfolio ------------------------*/
+	
+	.jx-portfolio .item.item-w2 {
+		width: 300px;
+		height:auto;
+	}
+	.jx-portfolio-filter a {
+		padding: 6px 10px;
+	}
+	
+	/* ----------------------- Logo Partner ------------------------*/
+	
+	.jx-logo-partner-2 ul li {
+		margin: 10px 25px;
+	}
+	
+	
+	/* ----------------------- According ------------------------*/
+	
+	.jx-according .none .title span {
+		display: -moz-grid;
+		width: 240px;
+	}
+	
+	.jx-according .circle .title span {
+		display: -moz-grid;
+		width: 215px;
+	}
+	
+	/* ----------------------- Block Style 2 ------------------------*/
+	
+	
+	.jx-blog-2 .blog-item .date-position-left {
+		width: 30px;
+		margin: 25px 0px 0px 10px;
+	}
+	
+	.jx-blog-2 .blog-item .date {
+		font-size: 14px;
+		line-height: 12px;
+		height: 30px;
+	}
+	
+	.jx-blog-2 .blog-item .date span {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		font-size: 16px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		height: 30px;
+		padding-top: 5px;
+	}
+	
+	.jx-blog-2 .blog-item .date-position-right {
+		width: 30px;
+		margin: 25px 10px 0px 0px;
+	}
+	
+
+	.jx-blog-2 ul li {
+		padding:0px;
+	}
+	.jx-pattern {
+		margin: 20px 0px !important;
+	}
+	.blog-pattern {
+		width: 20.3px !important;
+		height: 20px !important;
+	}
+	
+	.jx-blog-2 ul li {
+		width: 100% !important;
+	}
+	
+	
+	
+	
+	
+	/* ----------------------- Testimonials ------------------------*/
+
+	.jx-testimonials-3 .user-photo.medium {
+		display: none;
+	}
+
+	/* ----------------------- Page 404 ------------------------*/
+	.jx-page-search.medium .jx-form-wrapper button {
+    	top: -60px;
+	}
+	
+	.jx-404-error .jx-404-message {
+		font-size: 40px;
+		padding-top: 30px;
+		height: auto;
+		line-height: 45px;
+	}
+	
+	.jx-404-error .jx-404-errorno {
+		font-size: 150px;
+		height: 140px;
+	}
+	
+	/* ----------------------- Page 505 ------------------------*/
+	
+	.jx-500-error .jx-500-message {
+		font-size: 40px;
+		padding-top: 30px;
+		height: auto;
+		line-height: 45px;
+	}
+	
+	.jx-500-error .jx-500-errorno {
+		font-size: 150px;
+		height: 140px;
+	}
+	
+	/* ----------------------- Faq #1 ------------------------*/
+	
+	.jx-page-search h4 {
+    	font-size: 22px;
+	}
+	
+
+	/* Author Box ======================================================*/
+	
+	.jx-author-box{
+	  height:auto;
+	}
+	
+	
+	}
+	
+	
+
+/* #iPad (Landscape) and (Portrait)
+================================================== */
+	@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+	
+	
+	/* ----------------------- HEADER  ------------------------*/
+	
+	/* Header Content Box */
+	.jx-page-header .item-position{
+		width:80%;
+	}
+	
+	.jx-header .four.columns{
+		width:280px;
+	}
+	
+	.jx-header .twelve.columns{ 
+		width:640px;
+	}
+	
+	 /* Rev slider */
+   
+	.jx-caption-big-1{
+		font-size:60px !important;
+		font-weight:700;
+		font-family:raleway;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-1 span{
+		font-size:60px !important;
+		font-weight:700;
+		font-family:raleway;
+		color:#000;
+	}
+	
+	.jx-caption-big-2{
+		font-size:30px !important;
+		font-weight:600; 
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-3{
+		font-size:40px !important;
+		color:#000;
+		font-weight:700;
+		font-family:raleway ;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn{
+		color:#fff;
+		padding:20px 18px !important;
+		font-size:23px !important;
+		border-radius:5px;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn:hover{
+		background:#000;
+		cursor:pointer;
+	}
+	
+	/* Recent Work */
+	.jx-footer-recent-work {
+	height: 283px;
+	}
+	/* ----------------------- FOOTER  ------------------------*/
+	
+	/* ----------------------- Recent Post  --------------------*/
+	
+	.jx-footer-recent-post li .image {
+		background:none;
+		width: 60px !important;
+	}
+	
+	.jx-footer-recent-post li {
+		height: 100px !important;
+	}
+	
+	/* ----------------------- Team Member ------------------------*/
+	
+	.jx-team-member-1 .bg-color {
+		height: 166px;
+	}
+	
+	
+	/* ----------------------- Tagline Box ------------------------*/
+	
+	.jx-tagline-box{
+		 padding: 15px 1px !important;
+	}
+	
+	.jx-tagline-box .button {
+		font-size: 18px !important;
+		padding: 10px 20px !important;
+	}
+	
+	.jx-tagline-box .jx-link {
+		margin-left: 0px !important;
+	}
+	
+	
+	/* ----------------------- Logo Partner ------------------------*/
+	
+	.jx-logo-partner-home .logo-partner .brucket-title {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	
+	.jx-logo-partner-home .logo-partner .title {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	
+	.jx-logo-partner-home li {
+    	width: 25%;
+	}
+	
+	/* ----------------------- Counter Up ----------------------*/
+	.jx-countup {
+		margin-bottom: 52px;
+	}
+	.jx-counter-up .counter_text {
+    	font-size: 21px;
+	}
+	
+	/* ----------------------- Protfolio ------------------------*/
+
+	.jx-portfolio{
+		margin:0px auto !important;
+	}
+	
+	/* -----------------------  Social Icons ------------------------*/
+	
+	.jx-social-icons li {
+		height:85px;
+		width:83px;
+	}
+	
+	.jx-social-icons li:hover {
+		height:97px;
+		width:83px;
+		margin-top:-13px;
+	}
+		
+	.jx-social-icons li i {
+		line-height:79px;
+		width:83px;
+	}
+	
+	/* ----------------------- Block Style 1 ------------------------*/
+
+    .jx-blog-1.blog-medium .blog-item .date-position {
+		width: 50px;
+		margin: 30px 0px 0px 13px;
+	}
+	
+	.jx-blog-1.blog-medium .blog-item .icon{
+		font-size: 30px;
+		height: 50px;
+		padding-top: 5px;
+		line-height:30px;
+	}
+	
+	 .jx-blog-1.blog-medium .blog-item .date {
+		font-size: 25px;
+		line-height: 13px;
+		height: 50px;
+	}
+	
+	.jx-blog-1.blog-medium .blog-item .date span {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	
+	/* ----------------------- Block Style #1 Medium ------------------------*/
+	.jx-blog-1.blog-medium .image img {
+    	height: 168px;
+	}
+	
+	/* ----------------------- Block Style #1 -- Blog Single Post  ------------------------*/
+
+	.jx-blog-1.blog-single-post .date-position {
+		width: 77px;
+		margin: 40px 0px 0px 30px;
+	}
+	
+	.jx-blog-1.blog-single-post .icon {
+		font-size: 45px;
+		height: 77px;
+		padding-top: 20px;
+	}
+	
+	.jx-blog-1.blog-single-post .date {
+		font-size: 40px;
+		line-height: 30px;
+		height: 77px;
+	}
+	
+	.jx-blog-1.blog-single-post .date span {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	
+	/* ----------------------- Block Style 2 ------------------------*/
+	
+	.jx-blog-2 .blog-item .date-position-left {
+		width: 40px;
+		margin: 45px 0px 0px 13px;
+	}
+	
+	.jx-blog-2 .blog-item .date {
+		font-size: 15px;
+		line-height: 9px;
+		height: 40px;
+	}
+	
+	.jx-blog-2 .blog-item .date span {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		font-size: 22px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		height: 40px;
+		padding-top: 8px;
+	}
+	
+	.jx-blog-2 .blog-item .date-position-right {
+		width: 40px;
+		margin: 45px 13px 0px 0px;
+	}
+	
+	.jx-blog-2 ul li {
+		width: 48.5%;
+	}
+	
+	.blog-pattern {
+		height: 168px;
+	}
+	
+	/* ----------------------- Pagination ------------------------*/
+	
+	.jx-pagination{
+		text-align:center;
+	}
+	
+	/* ----------------------- Testimonials ------------------------*/
+	
+	.jx-testimonials-2 .flexslider .flex-control-nav {
+		left:40px;
+	}
+	
+	/* ----------------------- Service Network ------------------------*/
+	
+	.jx-srvc-text {
+		width: 80%;
+		padding-left: 20%;
+	}
+	
+	/* ----------------------- Page 404 ------------------------*/
+	.jx-page-search.medium .jx-form-wrapper button {
+    	top: -60px;
+	}
+	
+	}
+	
+	@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
+	
+	
+	/* ----------------------- HEADER  ------------------------*/
+	 
+	/* Header Content Box */
+	.jx-page-header .item-position{
+		width:80%;
+	}
+	 
+
+	 /* Rev slider */
+   
+	
+	.boxed{
+		width:100%;
+		box-shadow:none;
+		background: #ddd;
+	}
+	
+	/* Revolution Slider */
+	.boxed .tp-banner-container{
+		width:100%;
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.boxed .tp-banner{
+		width:100%;    
+		height:auto;    
+		position:relative;
+		overflow:hidden;
+	}
+	
+	.jx-caption-big-1{
+		font-size:60px !important;
+		font-weight:700;
+		font-family:raleway;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-1 span{
+		font-size:60px !important;
+		font-weight:700;
+		font-family:raleway;
+		color:#000;
+	}
+	
+	.jx-caption-big-2{
+		font-size:30px !important;
+		font-weight:600; 
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-big-3{
+		font-size:40px !important;
+		color:#000;
+		font-weight:700;
+		font-family:raleway ;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn{
+		color:#fff;
+		padding:20px 18px !important;
+		font-size:23px !important;
+		border-radius:5px;
+		margin-top:-90px !important;
+		margin-left:40px !important;
+	}
+	
+	.jx-caption-orange-btn:hover{
+		background:#000;
+		cursor:pointer;
+	}
+	
+
+	/* ----------------------- FOOTER  ------------------------*/
+	
+	/* ----------------------- Recent Post  --------------------*/
+	
+	.jx-footer-recent-post li .image {
+		background:none;
+		width: 60px !important;
+		height: 100px !important;
+	}
+	
+	.jx-footer-recent-post li {
+		height: 100px !important;
+	}
+	
+	/* ----------------------- Team Member ------------------------*/
+	
+	.jx-team-member-1 .bg-color {
+		height: 105px;
+	}
+	
+	.jx-team-member-1 .icon li {
+		height: 31px;
+		padding: 6px;
+		margin-left: 10px;
+		width: 32px;
+	}
+	
+	.jx-team-member-1 .name {
+		font-size: 20px;
+	}
+	
+	.jx-team-member-1 .post {
+		font-size: 14px;
+	}
+	
+	.jx-team-member-1 .icon li i {
+		font-size: 18px;
+	}
+	
+	/* ----------------------- PriceTable ------------------------*/
+
+	.jx-price-table-1 .price {
+		width: 80px;
+		height: 80px;
+	}
+	.jx-price-table-1 .title {
+		font-size: 25px;
+		padding: 10px 0px 0px 0px;
+	}
+	.jx-price-table-1 .amount {
+		font-size: 22px;
+		padding: 15px 0px 10px 0px;
+	}
+	.jx-price-table-1 .item-list ul li {
+		font-size:14px;
+	}
+	.jx-price-table-1 .catagry {
+		font-size: 14px;
+		padding: 10px 0px 0px 0px;
+	}
+	
+	/* ----------------------- PriceTable #2 ------------------------*/
+	.jx-price-table-2 .price-table-bg , .jx-price-table-3 .price-table-bg {
+     height: 178px;
+	}
+	.jx-price-table-2 .title , .jx-price-table-3 .title {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	.jx-price-table-2 .amount , .jx-price-table-3 .amount {
+		font-size: 50px;
+		padding: 10px 0px 0px;
+		line-height: 50px;
+	}
+	
+	.jx-price-table-2 .text , .jx-price-table-3 .text {
+		font-size: 13px;
+		line-height: 14px;
+	}
+
+	.jx-price-table-2 .item-list ul li , .jx-price-table-3 .item-list ul li {
+		padding: 16px 0px 16px 10px;
+		 font-size: 13px;
+	}
+	
+	.jx-price-table-2 .item-list ul li i , .jx-price-table-3 .item-list ul li i {
+		padding-right: 5px;
+	}
+	
+	.jx-price-table-2 .price-button , .jx-price-table-3 .price-button {
+		font-size: 14px;
+		padding: 10px 10px;
+	 }
+	
+	
+	/* ----------------------- Cicular Service ------------------------*/
+
+	.circular-menu .jx-srvc-container {
+		left:140px;
+	}
+	.jx-circle-nav li {
+		padding: 0px 0px 0px 60px;
+	}
+
+	.jx-srvc-container .jx-circular-srvc {
+		margin-bottom:42px;
+	}
+
+
+	/* ----------------------- According ------------------------*/
+	
+	.jx-according .none .title span {
+		display: -moz-grid;
+		width: 275px;
+	}
+	
+	.jx-according .circle .title span {
+		display: -moz-grid;
+		width: 275px;
+	}
+	
+	.jx-according .none .title span {
+		line-height: 1.2;
+		padding-top: 7px;
+	}
+	
+	
+	/* -----------------------  Social Icons ------------------------*/
+	
+	.jx-social-icons li {
+		height:85px;
+		width:83px;
+	}
+	
+	.jx-social-icons li:hover {
+		height:97px;
+		width:83px;
+		margin-top:-13px;
+	}
+		
+	.jx-social-icons li i {
+		line-height:79px;
+		width:83px;
+	}
+	
+	/* ----------------------- Counter Up ----------------------*/
+	.jx-counter-up .counter_text {
+    	font-size: 21px;
+	}
+	/* ----------------------- Protfolio ------------------------*/
+
+	.jx-portfolio{
+		margin:0px auto !important;
+	}
+	
+	/* ----------------------- Defult Buttons ------------------------*/
+
+	.jx-btn-large {
+		min-width: 240px;
+	}
+	
+	/* ----------------------- Tagline Box ------------------------*/
+	
+	.jx-tagline-box{
+		 padding: 15px 1px !important;
+	}
+	
+	.jx-tagline-box .button {
+		font-size: 14px !important;
+		padding: 10px 20px !important;
+	}
+	
+	.jx-tagline-box .jx-link {
+		margin-left: 0px !important;
+	}
+	
+	/* ----------------------- Logo Partner ------------------------*/
+	
+	
+	.jx-logo-partner-home .logo-partner .brucket-title {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	
+	.jx-logo-partner-home .logo-partner .title {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	
+	.jx-logo-partner-home li {
+    	width: 20%;
+	}
+	
+	/* ----------------------- Block Style 1 ------------------------*/
+
+    .jx-blog-1.blog-medium .blog-item .date-position  , .jx-blog-1.blog-small .blog-item .date-position {
+		width: 40px;
+		position: absolute;
+		float: left;
+		margin: 30px 0px 0px 13px;
+		z-index: 90;
+	}
+	
+	.jx-blog-1.blog-medium .blog-item .icon , .jx-blog-1.blog-small .blog-item .icon {
+		font-size: 20px;
+		color: #FFF;
+		height: 40px;
+		padding-top: 0px;
+		line-height:38px;
+	}
+	
+	 .jx-blog-1.blog-medium .blog-item .date , .jx-blog-1.blog-small .blog-item .date {
+		font-size: 15px;
+		line-height: 12px;
+		color: #FFF;
+		height: 40px;
+	}
+	
+	.jx-blog-1.blog-medium .blog-item .date span , .jx-blog-1.blog-small .blog-item .date span {
+		font-size: 18px;
+		line-height: 23px;
+	}
+	
+	/* ----------------------- Block Style #1 Medium ------------------------*/
+	.jx-blog-1.blog-medium .image img {
+    	height: 133px;
+	}
+	
+	
+		/* ----------------------- Block Style #1 -- Blog Single Post  ------------------------*/
+
+	.jx-blog-1.blog-single-post .date-position {
+		width: 77px;
+		margin: 60px 0px 0px 30px;
+	}
+	
+	.jx-blog-1.blog-single-post .icon {
+		font-size: 45px;
+		height: 77px;
+		padding-top: 20px;
+	}
+	
+	.jx-blog-1.blog-single-post .date {
+		font-size: 40px;
+		line-height: 30px;
+		height: 77px;
+	}
+	
+	.jx-blog-1.blog-single-post .date span {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	
+	
+/* ----------------------- Block Style 2 ------------------------*/
+	
+	.jx-blog-2 .blog-item .date-position-left {
+		width: 40px;
+		margin: 25px 0px 0px 13px;
+	}
+	
+	.jx-blog-2 .blog-item .date {
+		font-size: 15px;
+		line-height: 9px;
+		height: 40px;
+	}
+	
+	.jx-blog-2 .blog-item .date span {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		font-size: 22px;
+	}
+	
+	.jx-blog-2 .blog-item .icon {
+		height: 40px;
+		padding-top: 8px;
+	}
+	
+	.jx-blog-2 .blog-item .date-position-right {
+		width: 40px;
+		margin: 25px 13px 0px 0px;
+	}
+	
+	.jx-blog-2 ul li {
+		width: 48.5%;
+	}
+	
+	.blog-pattern {
+		height: 133px;
+	}
+	
+	/* ----------------------- Pagination ------------------------*/
+	
+	.jx-pagination{
+		text-align:center;
+	}
+	
+	/* ----------------------- Testimonials ------------------------*/
+	
+	.jx-testimonials-2 .flexslider .flex-control-nav {
+		position: unset !important;
+		bottom: 0px !important;
+		text-align: center !important;
+		top: 0px !important;
+		width: auto !important;
+		left: 0px !important;
+	}
+	
+	.jx-testimonials-3 .user-photo.medium {
+		display: none;
+	}
+	
+	/* ----------------------- Page 404 ------------------------*/
+	.jx-page-search.medium .jx-form-wrapper button {
+    	top: -60px;
+	}
+	
+	.jx-404-error .jx-404-message {
+		font-size: 40px;
+		padding-top: 30px;
+		height: auto;
+		line-height: 45px;
+	}
+	
+	.jx-404-error .jx-404-errorno {
+		font-size: 150px;
+		height: 140px;
+	}
+	
+	/* ----------------------- Page 505 ------------------------*/
+	
+	.jx-500-error .jx-500-message {
+		font-size: 40px;
+		padding-top: 30px;
+		height: auto;
+		line-height: 45px;
+	}
+	
+	.jx-500-error .jx-500-errorno {
+		font-size: 150px;
+		height: 140px;
+	}
+	
+	
+	
+
+	
+	}
