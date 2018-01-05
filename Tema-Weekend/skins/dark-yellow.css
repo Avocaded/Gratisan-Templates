@@ -1,0 +1,160 @@
+body {
+	background: #0e0e0e;
+	color: #898989;
+}
+a {
+	color: #898989;
+}
+a:hover {
+	color: #FFF;
+}
+.top-nav-bar, .socialize ul li a {
+	background: #0e0e0e;
+}
+.top-nav-bar .navbar-nav li a {
+	color: #9c9c9c;
+}
+.top-nav-bar .navbar-nav li a:hover {
+	color: #ffba00;
+}
+.bg-pink, .widget {
+	background: #202020;
+}
+.main-nav-bar {
+	background-color: #ffba00;
+}
+.main-nav-bar .navbar-nav li a {
+	color: #202020;
+	border:1px solid #ffba00;
+}
+.main-nav-bar .navbar-nav>.current-menu-item>a, .main-nav-bar .navbar-nav>.current-menu-item>a:hover, .main-nav-bar .navbar-nav>.current-menu-item>a:focus, .main-nav-bar .navbar-nav li a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: #c39109;
+	border:1px solid #c39109;
+	color: #202020;
+}
+h1, h2, h3, h4, h5, h6, .socialize h4, .widget .widget-title, .recent-widget ul.post-list li h4 a:hover {
+	color: #FFF;
+}
+.socialize ul li a {
+	border:1px solid #0e0e0e;
+}
+.recent-widget .nav-tabs.nav-justified li a, .recent-widget .nav-tabs.nav-justified li a:hover {
+	background: #0e0e0e;
+	color: #FFF;
+}
+.recent-widget .nav-tabs.nav-justified li.active a, .recent-widget .nav-tabs.nav-justified li.active a:hover {
+	background: #202020;
+	color: #FFF;
+}
+.recent-widget .nav-tabs.nav-justified li:first-child a, .recent-widget .nav-tabs.nav-justified li:last-child a {
+	border:0px
+}
+.recent-widget ul.post-list li h4 a {
+	color: #898989;
+}
+.recent-widget ul.post-list li {
+	border-top: 1px solid #282828;
+}
+.recent-widget ul.post-list li .thumb .recent-count, .news-carousel .comment-count, .reviews span.comment-count, .tvshows .comment-count {
+	background-color: #ffba00;
+	color: #202020;
+}
+.network a {
+	border: 1px solid #2f2f2f;
+	border-top: none;
+}
+.network a:first-child {
+	border-top: 1px solid #2f2f2f;
+}
+.network a:hover {
+	background: #0e0e0e;
+}
+.network p {
+	color: #FFF;
+}
+.twitter-feeds li {
+	background: url("../img/twitter-feeds-yellow.png") no-repeat 0 18px;
+}
+.twitter-feeds li a, .twitter_follow_button {
+	color: #898989;
+}
+.ticker-time, .slider-content span.slider-time {
+	background: #ffba00;
+	color: #202020;
+}
+.slider-content a.slider-title {
+	background: rgba(255, 186, 0, 0.95);
+	color: #202020;
+}
+.slider-content span.slider-featured {
+	background-color: #fff;
+	color: #202020;
+}
+.bx-controls a:hover {
+	background-color: #ffba00;
+}
+.reviews .ratings li span.rating-before {
+	background-color: #141414;
+}
+.reviews .ratings li {
+	border-bottom: 1px solid #202020;
+}
+.reviews .ratings li span.rating-score, .review-summary {
+	background-color: #0e0e0e;
+}
+.reviews .thumb {
+	border-right: 1px solid #202020;
+}
+.reviews .ratings li span.rating-before.last {
+	background: #ffba00;
+	color: #202020;
+}
+.reviews .ratings li span.rating-before.last span.rating-score {
+	background: #ff9600;
+	color: #202020;
+}
+.reviews h4.rating-title a, .post-single h4.list-title a, .post-single h4.list-title a:hover {
+	color: #FFF;
+}
+.post-single li {
+	border-top:1px solid #2f2f2f;
+}
+.widget-survey .form-group:first-child .checkbox {
+	border-top: 1px solid #2f2f2f;
+}
+.widget-survey .checkbox {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2f2f2f;
+}
+.tagcloud a {
+	background: #0e0e0e;
+}
+.tagcloud a:hover, .survey .button.vote, .subscribe .input-button, .featured-side span.featured-side-title {
+	background: #ffba00;
+	color: #202020;
+}
+.footer {
+	background: #202020;
+}
+.footer .footer-top, .footer .footer-bottom {
+	color: #898989;
+	border-bottom: 1px solid #313131;
+}
+.footer a.footer-nav-scroll {
+	background: #ffba00 url("../img/scroll.png") no-repeat center;
+}
+.footer a.footer-nav-scroll:hover {
+	background: #ff9600 url("../img/scroll.png") no-repeat center;
+}
+.footer #menu-footer-menu li a {
+	color: #FFF;
+}
+.featured-side img {
+	border: 1px solid #0e0e0e;
+}
+.search input {
+	background: url("../img/glass.png") no-repeat right center #202020;
+}
+.featured-side p.featured-side-desc {
+	background-color: rgba(15, 15, 15, 0.95);
+}
